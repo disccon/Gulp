@@ -1,14 +1,10 @@
-//@import "mixin.scss";
-/*Медиазапросы диапазонные*/
 @mixin margin-auto {
   margin: {
     left: auto;
     right: auto;
   }
 }
-
 /*Медиазапросы от 0*/
-
 @media  (max-width: 1375px) {
   .section4{
     .section4__block1{
@@ -49,8 +45,6 @@
     }
   }
 }
-
-
 @media (max-width: 1199px) {
   .section2{
     .container{
@@ -128,7 +122,6 @@
     }
   }
 }
-
 @media (max-width: 991px) {
   .section1{
     header{
@@ -335,7 +328,6 @@
     }
   }
 }
-
 @media (max-width: 479px) {
   .section2{
     .section1-header{
@@ -345,28 +337,3 @@
     }
   }
 }
-
-
-
-
-
-/*Медиазапросы от 0*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
