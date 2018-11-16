@@ -58,6 +58,7 @@ function watch(){
         server: {
             baseDir: "./",
         },
+        tunnel: true
     });
     gulp.watch('./src/css/**/*.scss',scss);
     gulp.watch('./src/css/**/*.css', styles);
