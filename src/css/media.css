@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/*Медиазапросы диапазонные*/
+/*Медиазапросы от 0*/
+@media (max-width: 1375px) {
+  .section4 .section4__block1 {
+    margin-left: 40px; }
+    .section4 .section4__block1 h2 {
+      font-size: 65px; }
+  .section4 .section4__block2 {
+    width: 715px;
+    padding-right: 30px; }
+  .section6 .section6__table-review {
+    justify-content: center; }
+    .section6 .section6__table-review .review-wrapper {
+      width: calc(50% - 70px);
+      margin-right: 35px;
+      margin-left: 35px; } }
+
+@media (max-width: 1260px) {
+  .section4 .section4__block1 {
+    margin-left: 30px;
+    margin-right: 35px; }
+    .section4 .section4__block1 h2 {
+      font-size: 55px;
+      line-height: 1.35; }
+  .section4 .section4__block2 {
+    width: 710px;
+    padding-right: 25px; } }
+
+@media (max-width: 1199px) {
+  .section2 .container .content-wrapper {
+    flex-wrap: wrap; }
+    .section2 .container .content-wrapper .section1-content {
+      width: 50%; }
+  .section4 {
+    flex-direction: column;
+    align-items: center; }
+    .section4 .section4__block1 {
+      text-align: center;
+      margin-right: 15px;
+      margin-top: 15px; }
+      .section4 .section4__block1 h2 {
+        line-height: 1.45;
+        font-size: 50px; }
+    .section4 .section4__block2 {
+      width: 705px;
+      padding-right: 20px;
+      padding-left: 15px;
+      margin-top: 125px;
+      margin-left: 0; }
+  .section8 {
+    position: relative;
+    flex-direction: column; }
+    .section8 .section8__subBlock1 {
+      width: 100%;
+      margin-bottom: 100px;
+      padding-left: 25px;
+      padding-right: 25px; }
+      .section8 .section8__subBlock1 .wrapper {
+        margin-right: 0px; }
+    .section8 .section8__subBlock2 {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: static;
+      padding-top: 0px;
+      padding-bottom: 160px;
+      padding-left: 0;
+      text-align: center; }
+      .section8 .section8__subBlock2 h2 {
+        line-height: 1.5;
+        font-size: 65px; }
+      .section8 .section8__subBlock2 .wrapper {
+        margin-left: auto;
+        margin-right: auto; }
+  footer {
+    flex-wrap: wrap;
+    padding-left: 12px; }
+    footer .footer__subBlock1-logo, footer .footer__subBlock2, footer .footer__subBlock3, footer .footer__subBlock4 {
+      width: 50%;
+      display: flex;
+      justify-content: center; }
+    footer .footer__subBlock2, footer .footer__subBlock3, footer .footer__subBlock4 {
+      margin-left: 0;
+      margin-right: 0; }
+      footer .footer__subBlock2 .wrapper, footer .footer__subBlock3 .wrapper, footer .footer__subBlock4 .wrapper {
+        width: 195px; } }
+
+@media (max-width: 991px) {
+  .section1 header {
+    justify-content: center; }
+    .section1 header .header__sign {
+      display: none; }
+    .section1 header .header__log {
+      display: none; }
+    .section1 header .header__button-help, .section1 header .header__call-us {
+      display: none; }
+    .section1 header .header__menu {
+      margin-left: 24px; }
+      .section1 header .header__menu span {
+        display: none; }
+  .section1 h1 {
+    margin-top: 130px;
+    font-size: 55px; }
+  .section1 h2 {
+    line-height: 1.2;
+    font-size: 42px; }
+  .section1 h3 {
+    margin-top: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    width: 100%;
+    font-size: 21px; }
+  .section1 .section1__red-button {
+    margin-top: 100px; }
+  .section6 .section6__table-review .review-wrapper {
+    width: 65%;
+    margin-right: 0px;
+    margin-left: 0px; } }
+
+@media (max-width: 767px) {
+  .section2 .container h2 {
+    font-size: 30px; }
+  .section2 .container .content-wrapper .section1-content {
+    width: 100%; }
+  .section4 .section4__block1 {
+    font-size: 45px; }
+    .section4 .section4__block1 h2 {
+      font-size: 48px;
+      line-height: 1.5; }
+  .section4 .section4__block2 {
+    margin-top: 90px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px; }
+    .section4 .section4__block2 .section4__subBlock {
+      margin-top: 70px;
+      flex-direction: column;
+      align-items: center; }
+      .section4 .section4__block2 .section4__subBlock .wrapper {
+        margin-left: 0;
+        margin-right: 0px;
+        width: 235px; }
+        .section4 .section4__block2 .section4__subBlock .wrapper h3 {
+          width: 100%;
+          margin-top: 17px;
+          text-align: center; }
+        .section4 .section4__block2 .section4__subBlock .wrapper span {
+          width: 100%;
+          text-align: center; }
+      .section4 .section4__block2 .section4__subBlock .subBlock__arrow {
+        display: none; }
+    .section4 .section4__block2 .section4__subBlock1 .subBlock__icon, .section4 .section4__block2 .section4__subBlock3 .subBlock__icon {
+      margin-left: 0; }
+    .section4 .section4__block2 .section4__subBlock2 .subBlock__icon, .section4 .section4__block2 .section4__subBlock4 .subBlock__icon {
+      margin-right: 0;
+      order: -1; }
+  .section6 .section6__table-review .review-wrapper {
+    width: 90%; }
+  .section9 h2 {
+    font-size: 31px; }
+  .section9 span {
+    line-height: 1.25;
+    font-size: 17px; }
+  footer {
+    padding-left: 0px; }
+    footer .footer__subBlock1-logo, footer .footer__subBlock2, footer .footer__subBlock3, footer .footer__subBlock4 {
+      width: 100%; }
+    footer .footer__subBlock2 .wrapper, footer .footer__subBlock3 .wrapper, footer .footer__subBlock4 .wrapper {
+      text-align: center; } }
+
+@media (max-width: 574px) {
+  .section1 h1 {
+    margin-top: 150px;
+    font-size: 43px; }
+  .section1 h2 {
+    line-height: 1.6;
+    font-size: 32px; }
+  .section1 h3 {
+    margin-top: 24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 19px; }
+  .section1 .section1__red-button {
+    margin-top: 85px; }
+  .section2 .container h2 {
+    font-size: 25px; }
+  .section6 h2 {
+    font-size: 30px; }
+  .section6 .section6__table-review .review-wrapper {
+    width: 100%; }
+    .section6 .section6__table-review .review-wrapper .review-wrapper__info {
+      padding: 29px 18px; }
+  .section8 {
+    padding-top: 80px; }
+    .section8 .section8__subBlock1 {
+      margin-bottom: 80px; }
+      .section8 .section8__subBlock1 .wrapper {
+        width: 100%; }
+    .section8 .section8__subBlock2 h2 {
+      font-size: 55px; }
+  .section9 h2 {
+    font-size: 27px; }
+  .section9 span {
+    margin-top: 9px;
+    line-height: 1.25;
+    font-size: 16px; } }
+
+@media (max-width: 479px) {
+  .section2 .section1-header h2 {
+    font-size: 17px; } }
+
+/*Медиазапросы от 0*/
